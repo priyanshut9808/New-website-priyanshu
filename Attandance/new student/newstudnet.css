@@ -1,0 +1,192 @@
+/* WHOLE BODY STYLING STARTS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* WHOLE BODY STYLING ENDS */
+
+/* CONTAINER SECTION STARTS */
+.container{
+    position: absolute;
+    height: 530px;
+    width: 508px;
+    top: 60px;
+    left: 425px;
+    background: #4C9AFF;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.student-form{
+    margin-top: 65px;
+}
+
+/* CONTAINER SECTION ENDS */
+
+/* HEADING SECTION STARTS */
+.newheading{
+    position: absolute;
+    width: 311px;
+    height: 20px;
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0065FF;
+    top: 20px;
+    left: 8px;
+}
+/* HEADING SECTION ENDS */
+
+/* INPUT TYPE TEXT STARTS */
+input[type=text]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 140px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+input[type=text]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+/* INPUT TYPE TEXT ENDS */
+
+/* INPUT TYPE TEXT STARTS */
+.newheading{
+    position: absolute;
+    width: 311px;
+    height: 20px;
+    font-family: 'Arima Madurai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0065FF;
+    top: 20px;
+    left: 8px;
+}
+
+.newbox-1{
+    position: absolute;
+    width: 459px;
+    height: 460px;
+    left: 21px;
+    top: 30px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.newinput  input[type=text]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.newinput input[type=password]{
+width: 90%;
+border: 2px solid ;
+border-radius: 4px;
+margin-top: 20px;
+outline: none;
+padding: 8px;
+margin-left: 10px;
+}
+
+.newinput input[type=file]{
+width: 90%;
+border: 2px solid ;
+border-radius: 4px;
+margin-top: 20px;
+outline: none;
+padding: 8px;
+margin-left: 10px;
+}
+
+input[type=password]:focus{
+border-color: #0065FF;
+box-shadow: 0 0 8px 0 #0065FF;
+}
+
+input[type=number]{
+    width: 90%;
+    border: 2px solid ;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+input[type=number]:focus{
+    border-color: #0065FF;
+    box-shadow: 0 0 8px 0 #0065FF;
+}
+
+input[type=file]:focus{
+border-color: #0065FF;
+box-shadow: 0 0 8px 0 #0065FF;
+}
+
+/* ADD BUTTON STARTS */
+.addbtn{
+    position: absolute;
+    border: 2px solid rgb(4, 122, 4);
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: rgb(4, 122, 4);
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 250px;
+}
+
+a{
+    text-decoration: none;
+    font-family: initial;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px;
+    color: #ffffff;
+}
+a:hover{
+    width: 90px;
+    height: 38px;
+    color: green;
+    background: #ffffff;
+    border: 1px solid green;
+    border-radius: 32px;
+    transform: ease 0.3 sec;
+}
+/* ADD BUTTON ENDS */
+
+/* ADD BUTTON STARTS */
+.removebtn{
+    position: absolute;
+    border: 2px solid red;
+    height: 38px;
+    width: 90px;
+    padding: 8px 12px;
+    background-color: red;
+    border-radius: 35px;
+    text-align: center;
+    top: 410px;
+    left: 350px;
+}
+/* REMOVE BUTTON ENDS */
